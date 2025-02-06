@@ -10,7 +10,8 @@
 		MapPin,
 		Filter,
 		Scissors,
-		MountainSnow
+		MountainSnow,
+		Move
 	} from 'lucide-svelte';
 
 	import { _ } from 'svelte-i18n';
@@ -27,6 +28,9 @@
 		</ToolbarItem>
 		<ToolbarItem tool={Tool.WAYPOINT} label={$_('toolbar.waypoint.tooltip')}>
 			<MapPin slot="icon" size="18" />
+		</ToolbarItem>
+		<ToolbarItem tool={Tool.WAYPOINT} label={$_('toolbar.move.tooltip')}>
+			<Move slot="icon" size="18" />
 		</ToolbarItem>
 		<ToolbarItem tool={Tool.SCISSORS} label={$_('toolbar.scissors.tooltip')}>
 			<Scissors slot="icon" size="18" />
