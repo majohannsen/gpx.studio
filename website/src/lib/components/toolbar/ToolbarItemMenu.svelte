@@ -31,7 +31,7 @@
 	});
 </script>
 
-{#if $currentTool !== null}
+{#if $currentTool !== null && $currentTool !== Tool.MOVE}
 	<div
 		in:flyAndScale={{ x: -2, y: 0, duration: 100 }}
 		class="translate-x-1 h-full {$$props.class ?? ''}"

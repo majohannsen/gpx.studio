@@ -197,6 +197,7 @@ export const routingControls: Map<string, RoutingControls> = new Map();
 export enum Tool {
     ROUTING,
     WAYPOINT,
+    MOVE,
     SCISSORS,
     TIME,
     MERGE,

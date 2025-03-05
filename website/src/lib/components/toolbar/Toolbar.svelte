@@ -29,7 +29,7 @@
 		<ToolbarItem tool={Tool.WAYPOINT} label={$_('toolbar.waypoint.tooltip')}>
 			<MapPin slot="icon" size="18" />
 		</ToolbarItem>
-		<ToolbarItem tool={Tool.WAYPOINT} label={$_('toolbar.move.tooltip')}>
+		<ToolbarItem tool={Tool.MOVE} label={$_('toolbar.move.tooltip')}>
 			<Move slot="icon" size="18" />
 		</ToolbarItem>
 		<ToolbarItem tool={Tool.SCISSORS} label={$_('toolbar.scissors.tooltip')}>
